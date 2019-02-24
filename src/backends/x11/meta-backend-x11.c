@@ -783,7 +783,7 @@ meta_backend_x11_init (MetaBackendX11 *x11)
    * in Cogl - see meta_renderer_x11_create_cogl_renderer(). We call it here
    * to hopefully call it before any other use of XLib.
    */
-  XInitThreads();
+  /* XInitThreads(); */
 
   /* We do X11 event retrieval ourselves */
   clutter_x11_disable_event_retrieval ();

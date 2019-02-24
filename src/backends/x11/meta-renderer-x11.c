@@ -82,7 +82,7 @@ meta_renderer_x11_create_cogl_renderer (MetaRenderer *renderer)
    * to work properly, even when Mutter is constantly redrawing new frames;
    * otherwise, without INTEL_swap_event, we'll just block in glXSwapBuffers().
    */
-  cogl_xlib_renderer_set_threaded_swap_wait_enabled (cogl_renderer, TRUE);
+  /* cogl_xlib_renderer_set_threaded_swap_wait_enabled (cogl_renderer, TRUE); */
 
   return cogl_renderer;
 }

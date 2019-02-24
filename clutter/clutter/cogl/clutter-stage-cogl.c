@@ -179,11 +179,11 @@ clutter_stage_cogl_schedule_update (ClutterStageWindow *stage_window,
 
   refresh_rate = stage_cogl->refresh_rate;
   if (refresh_rate == 0.0)
-    refresh_rate = 60.0;
+    refresh_rate = 144.0;
 
   refresh_interval = (gint64) (0.5 + 1000000 / refresh_rate);
   if (refresh_interval == 0)
-    refresh_interval = 16667; /* 1/60th second */
+    refresh_interval = 6945; /* 1/60th second */
 
   stage_cogl->update_time = stage_cogl->last_presentation_time + 1000 * sync_delay;
 

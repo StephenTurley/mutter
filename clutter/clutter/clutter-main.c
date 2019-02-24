@@ -99,7 +99,7 @@ static gboolean clutter_use_fuzzy_picking    = FALSE;
 static gboolean clutter_enable_accessibility = TRUE;
 static gboolean clutter_sync_to_vblank       = TRUE;
 
-static guint clutter_default_fps             = 60;
+static guint clutter_default_fps             = 144;
 
 static ClutterTextDirection clutter_text_direction = CLUTTER_TEXT_DIRECTION_LTR;
 

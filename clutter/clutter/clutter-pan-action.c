@@ -69,7 +69,7 @@
 #define FLOAT_EPSILON   (1e-15)
 
 static const gfloat min_velocity = 0.1f; // measured in px/ms
-static const gfloat reference_fps = 60.0f; // the fps assumed for the deceleration rate
+static const gfloat reference_fps = 144.0f; // the fps assumed for the deceleration rate
 static const gfloat default_deceleration_rate = 0.95f;
 static const gfloat default_acceleration_factor = 1.0f;
 
