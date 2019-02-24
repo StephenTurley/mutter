@@ -987,7 +987,7 @@ queue_send_frame_messages_timeout (MetaWindowActor *self)
     }
   else
     {
-      refresh_rate = 60.0f;
+      refresh_rate = 144.0f;
     }
 
   current_time =
